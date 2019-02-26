@@ -1,6 +1,6 @@
 # Homework - JS Arrays + Loops
 
-Reccommendation: 
+Recommendation: 
 - If homework is taking you more than 4 hours to complete:
     - Go to TA hours
     - Get on zoom with a classmate
