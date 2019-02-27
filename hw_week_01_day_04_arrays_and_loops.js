@@ -14,3 +14,14 @@ for (var i = 1; i < 21; i++)
 {
     console.log(i);
 }
+
+
+//*SECTION#2 GET EVEN
+//?commit message : "Get Even Answered"
+for (var i = 0; i < 201; i++)
+{
+    if (i % 2 == 0)
+    {
+        console.log(i);
+    }
+}
