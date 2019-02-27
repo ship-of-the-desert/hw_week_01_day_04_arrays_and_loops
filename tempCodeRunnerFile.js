@@ -1,10 +1,3 @@
-
-
-for( var i = 1; i  < 21 ; i++){
-    console.log(i);
-}
-    
-
 for ( var i =1; i<200;i++){
 
 
@@ -13,4 +6,3 @@ for ( var i =1; i<200;i++){
 console.log(" even  > "+i)
     }
 }
-
