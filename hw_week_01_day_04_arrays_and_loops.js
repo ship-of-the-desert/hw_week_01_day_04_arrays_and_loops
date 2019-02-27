@@ -149,3 +149,20 @@ var kittenTalk = ['...human...why you taking picture of me?...',
 
 var meow = Math.floor(Math.random() * 3);
 console.log(kittenTalk[meow]);
+
+//* SECTION 9 FIND THE MEDIAN
+//?commit message "Find the Median Answered"
+const nums = [14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14,
+    19, 11, 15, 17, 11, 18, 12, 17, 12, 71, 18, 15, 12
+];
+
+nums.sort();
+if (nums.length % 2 != 0) {
+    console.log('Even Count');
+    num1 = nums[parseInt(nums.length / 2)];
+    num2 = nums[parseInt(nums.length / 2 + 1)];
+    console.log((num1 + num2) / 2);
+} else {
+    console.log('Odd Count');
+    console.log(nums[nums.length / 2]);
+}
