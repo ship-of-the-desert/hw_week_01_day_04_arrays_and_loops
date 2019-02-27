@@ -74,15 +74,22 @@
 
 // #7 Excited Kitten 
 // Write code that logs "Love me, pet me! HSSSSSS!" 20 times.\
-   for (var i =0; i < 20 ; i++ ){
-       console.log("Love me, pet me! HSSSSSS!");
-   }
-//For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
-    var kittyTalk = [ '...human...why you taking pictures of me?...',
-    '...the catnip made me do it...', 
-     "...why does the red dot always get away..." ];
-    for ( var i  = 0 ; i <20 ; i++){
-        let meow = Math.floor(Math.random()*3);
-        console.log("Love me, pet me! HSSSSSS!" + kittyTalk[meow]);
-    }
+//    for (var i =0; i < 20 ; i++ ){
+//        console.log("Love me, pet me! HSSSSSS!");
+//    }
+// //For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
+//     var kittyTalk = [ '...human...why you taking pictures of me?...',
+//     '...the catnip made me do it...', 
+//      "...why does the red dot always get away..." ];
+//     for ( var i  = 0 ; i <20 ; i++){
+//         let meow = Math.floor(Math.random()*3);
+//         console.log("Love me, pet me! HSSSSSS!" + kittyTalk[meow]);
+//     }
+
+// #8 the Median
+// Find the median number in the following nums array, then console.log that number.
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+    nums.sort();
+    var median = nums [Math.floor(nums.length/2)];
+    console.log(median);
 
