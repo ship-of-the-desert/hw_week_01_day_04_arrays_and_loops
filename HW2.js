@@ -46,3 +46,18 @@ wolfy.shift();
 wolfy.unshift("Gameboy");
 console.log(wolfy[0]);
 ///////////////////////////////////////////////////////
+
+//Q4
+//Yell at the Ninja Turtles
+
+const ninjaTurtle = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+var i;
+for ( i of ninjaTurtle )
+{
+i+=1;
+console.log(i.toUpperCase());
+
+}
+
+
+///////////////////////////////////////////
