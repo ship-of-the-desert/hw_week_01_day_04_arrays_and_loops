@@ -234,3 +234,19 @@ console.log(`Thom will be wearing ${thomsCloset[0][1]},
 ${thomsCloset[1][1]}, ${thomsCloset[2][1]} and ${thomsCloset[3][1]}\n`);
 console.log(`Kristyn will be wearing ${kristynsCloset[0]}, 
 ${kristynsCloset[1]}, ${kristynsCloset[2]} and ${kristynsCloset[3]}`);
+
+
+//* SECTION 12 DIRTY LAUNDRY
+//?commit message : "I looped through their closest"
+for (var i = 0; i < kristynsCloset.length; i++) {
+    console.log(`WHIRR: Now we are washing ${kristynsCloset[i]}`);
+}
+
+//!Assumption:
+//!Loop through nested arrays of thomsCloset
+//!Length of array - 1 as only original item are needed
+for (var i = 0; i < thomsCloset.length - 1; i++) {
+    for (var j = 0; j < thomsCloset[i].length; j++) {
+        console.log(thomsCloset[i][j]);
+    }
+}
