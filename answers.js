@@ -27,3 +27,9 @@ console.log(porgee);
 //replace wolfy name with gameboy
 console.log(wolfy.splice(0, 1,"Gameboy"));
 console.log(wolfy);
+
+//Ninja Turtles 
+const ninjaMembers = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+for (const member of ninjaMembers) {
+	console.log(member.toUpperCase());
+}
