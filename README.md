@@ -1,3 +1,6 @@
+
+
+
 # Homework - JS Arrays + Loops
 
 Recommendation: 
