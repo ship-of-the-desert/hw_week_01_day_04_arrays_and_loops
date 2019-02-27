@@ -166,3 +166,71 @@ if (nums.length % 2 != 0) {
     console.log('Odd Count');
     console.log(nums[nums.length / 2]);
 }
+
+
+//* SECTION 10 LAB TIME REVISITED
+//?commit message : ""
+
+// Create a fibonnacci loop
+function fibonnacci(number) {
+    if (number === 0) {
+        return 0;
+    } else if (number === 1 || number === 2) {
+        return 1;
+    } else {
+        return fibonnacci(number - 1) + fibonnacci(number - 2);
+    }
+}
+
+console.log(fibonnacci(10));
+
+
+//* SECTION 11 RETURN OF THE CLOSEST
+//?commit message : "Kristyn and Thoms have their outfits 
+//?ready for class - array practice"
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+    [
+        // These are Thom's shirts
+        "grey button-up",
+        "dark grey button-up",
+        "light blue button-up",
+        "blue button-up",
+    ],
+    [
+        // These are Thom's pants
+        "grey jeans",
+        "jeans",
+        "PJs"
+    ],
+    [
+        // Thom's accessories
+        "wool mittens",
+        "wool scarf",
+        "raybans"
+    ]
+];
+
+var kristynShoe = kristynsCloset.splice(0, 1)[0];
+thomsCloset[2].push(kristynShoe);
+
+console.log(kristynsCloset + '\n');
+console.log(thomsCloset);
+
+thomsCloset.push(['sneakers', 'slippers', 'boots']);
+kristynsCloset.push('nicklace', 'sunglasses', 'jacket');
+
+console.log(`Thom will be wearing ${thomsCloset[0][1]}, 
+${thomsCloset[1][1]}, ${thomsCloset[2][1]} and ${thomsCloset[3][1]}\n`);
+console.log(`Kristyn will be wearing ${kristynsCloset[0]}, 
+${kristynsCloset[1]}, ${kristynsCloset[2]} and ${kristynsCloset[3]}`);
