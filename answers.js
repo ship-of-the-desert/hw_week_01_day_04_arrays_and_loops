@@ -55,6 +55,100 @@ var ninjaTurtles= ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
 for (turtle of ninjaTurtles) {
     console.log(turtle.toUpperCase());
 }
+console.log('\n');
+
+//methods
+console.log('Methods-------------');
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 
+'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 
+'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+
+console.log('Index of Titanic: ' + favMovies.indexOf('Titanic'));
+console.log('\n');
+
+favMovies.sort(); //sort: rearranges (alters) array alphabetically
+console.log('Result after sorting:');
+console.log(favMovies); 
+console.log('\n');
+
+favMovies.pop();
+favMovies.push('Guardians of the Galaxy');
+console.log('Result after poping und pushing:');
+console.log(favMovies);
+console.log('\n');
+
+favMovies.reverse();
+console.log('Result after reversing:');
+console.log(favMovies);
+console.log('\n');
+
+favMovies.shift();
+favMovies.unshift(); //does nothing without a parameter
+console.log('Result after shifting/unshifting:');
+console.log(favMovies);
+console.log('\n');
+
+favMovies.splice(favMovies.indexOf('Django Unchained'), 1, 'Avatar');
+console.log('Result after splicing:');
+console.log(favMovies);
+console.log('\n');
+
+console.log('Result of slicing:');
+var sliceResult= favMovies.slice(0,favMovies.length/2);
+console.log(sliceResult);
+console.log('\n');
+//slicing does not permanently alter the array so i'm not printing it now
+console.log('index of fast: '+sliceResult.indexOf('Fast and Furious')); //returns -1 'doesnt exist'
+
+console.log('Final array:');
+console.log(favMovies);
+console.log('\n');
+
+//Where is waldo
+console.log('Where is Waldo-------------');
+const whereIsWaldo = [
+    ["Timmy", "Frank"], "Eggbert",
+    ["Lucinda", "Jacc", "Neff", "Snoop"],
+    ["Petunia", ["Baked Goods", "Waldo"]]
+];
+
+//removing eggbert
+whereIsWaldo.splice(whereIsWaldo.indexOf('Eggbert'), 1);
+console.log('Result after splicing:');
+console.log(whereIsWaldo);
+console.log('\n');
+
+//changing 'neff'
+whereIsWaldo[1][2]= 'No One';
+console.log('Result after changing:');
+console.log(whereIsWaldo);
+console.log('\n');
+
+//accessing waldo
+console.log(whereIsWaldo[2][1][1]);
+console.log('\n');
+
+//excited kitten
+console.log('Excited Kitten-------------');
+
+/* logs "love me..." x 20 times
+*/
+for (var i= 0; i < 20; i++) {
+    console.log((i+1) + ': ' + 'Love me, pet me! HSSSSSS!');  
+}
+console.log('\n');
+
+var kittenTalking= ['...human...why you taking pictures of me?...',
+    '...the catnip made me do it...', '...why does the red dot always get away...'];
+/* loop through even numbers
+    prints a random message from kittenTalking
+*/
+for (var i= 0; i <= 20; i+=2) {
+    var result= Math.floor(Math.random() * kittenTalking.length);
+    console.log(kittenTalking[result]);  
+}
+console.log('\n');
+
 
 
 
