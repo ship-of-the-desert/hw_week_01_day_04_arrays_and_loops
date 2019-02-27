@@ -149,6 +149,22 @@ for (var i= 0; i <= 20; i+=2) {
 }
 console.log('\n');
 
+//find the median
+console.log('Find the Median-------------');
+const nums = [14,11,16,15,13,16,
+    15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
 
-
-
+/*to find median:
+    1: sort
+    2: if length is odd log the middle value
+    3: if length is even log the averge of the middle 2 values
+*/
+nums.sort();
+if (nums.length%2==0) {
+    var position= (nums.length/2)-1;
+    var median= (nums[position]+nums[position+1])/(2);
+    console.log(`The median is ${median}`)
+} else {
+    var position= Math.ceil(nums.length/2);
+    console.log(`The median is ${nums[position]}`);
+}
