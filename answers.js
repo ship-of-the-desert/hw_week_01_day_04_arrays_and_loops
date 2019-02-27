@@ -37,8 +37,52 @@
 // console.log(dart); 
 
 //#4 Yell at the Ninja Turtles
-var ninjaTurtles = ["Donatello" , "Leonardo" , "Raphael", "Michaelangelo" ];
-for ( const i of  ninjaTurtles ) 
-{
-   console.log(i.toUpperCase());
-}
+// var ninjaTurtles = ["Donatello" , "Leonardo" , "Raphael", "Michaelangelo" ];
+// for ( const i of  ninjaTurtles ) 
+// {
+//    console.log(i.toUpperCase());
+// }
+
+// #5 Methods, Revisited
+// const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// console.log(favMovies.indexOf("Titanic"));
+// favMovies.sort();
+// favMovies.pop();
+// favMovies.push("Guardians of the Galaxy");
+// favMovies.reverse();
+// favMovies.shift();
+// favMovies.unshift();
+// favMovies.splice(favMovies.indexOf("Reverse the array") , 1);
+// favMovies.push("Avatar");
+// var halOfMyFav = favMovies.slice (( favMovies.length - 1 )/ 2);
+
+// console.log(halOfMyFav.toString());
+// console.log (favMovies.toString());
+// console.log (favMovies.indexOf("Fast and Furious"));
+
+// #6 Where is Waldo
+// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+//                     ["Lucinda", "Jacc", "Neff", "Snoop"],
+//                     ["Petunia", ["Baked Goods", "Waldo"]]];
+
+// // Remove 'Eggbert' 
+// whereIsWaldo.splice (1,1) ;
+// //replace 'Neff' to 'No One' 
+// whereIsWaldo[1][2] = "No One" ; 
+// // access and console.lg "Waldo"
+// console.log(whereIsWaldo[2][1][1]);
+
+// #7 Excited Kitten 
+// Write code that logs "Love me, pet me! HSSSSSS!" 20 times.\
+   for (var i =0; i < 20 ; i++ ){
+       console.log("Love me, pet me! HSSSSSS!");
+   }
+//For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
+    var kittyTalk = [ '...human...why you taking pictures of me?...',
+    '...the catnip made me do it...', 
+     "...why does the red dot always get away..." ];
+    for ( var i  = 0 ; i <20 ; i++){
+        let meow = Math.floor(Math.random()*3);
+        console.log("Love me, pet me! HSSSSSS!" + kittyTalk[meow]);
+    }
+
