@@ -1,8 +1,16 @@
-for ( var i =1; i<200;i++){
+const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+const sharky = ["Sharky", "shark", 20, "Left Coast"]
+const plantee = ["Plantee", "plant",  5000 , "Mordor"]
+const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 
+plantee[2] = 5001;
+wolfy[3] = "Gotham City";
 
-    if (i%2==0){
+wolfy.unshift["Wolfy"] ;
+wolfy[0] = "Gameboy";
 
-console.log(" even  > "+i)
-    }
-}
+dart[4] = "Hawkins";
+ console.log(plantee);
+ console.log(wolfy);
+ console.log(dart);
