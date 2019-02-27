@@ -66,9 +66,12 @@ const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
 
 //Excited Kitten
 var kittenTalkingPoints=["...human...why you taking pictures of me?...", "...the catnip made me do it...","...why does the red dot always get away..."];
-var random=Math.random();
+var len=kittenTalkingPoints.length;
 for (i=0;i<=20;i++){
   console.log("Love me, pet me! HSSSSSS!");
+  if(i%2==0){
+    console.log(kittenTalkingPoints[ Math.floor(Math.random()*kittenTalkingPoints.length)]);
+  }
 
 }                   
 //Find the Median
