@@ -44,6 +44,17 @@ wolfy.unshift('Gameboy');
 console.log(wolfy);
 console.log('\n');
 
+//Yell at the ninja turtles
+console.log('Yell At The Ninja Turtles-------------');
+
+var ninjaTurtles= ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+
+/*for of to iterate through ninjaTurtles
+    prints the name capitalized
+*/
+for (turtle of ninjaTurtles) {
+    console.log(turtle.toUpperCase());
+}
 
 
 
