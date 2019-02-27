@@ -7,6 +7,13 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"];
 plantee[2] = 5001;
 wolfy[3] = "Gotham City";
 dart.push("Hawkins");
-wolfy.shift();
-wolfy.unshift("Gameboy");
-console.log(wolfy);
+wolfy.shift(); // to delet the frist one in array 
+wolfy.unshift("Gameboy"); // to add in array and make it frist one
+console.log(wolfy); // y
+console.log(sharky);// a
+console.log(plantee);//s
+console.log(porgee);// i
+console.log(dart);//   r
+
+
+// 11.00 pm 
