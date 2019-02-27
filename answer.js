@@ -30,3 +30,10 @@ for (i=0;i<=200;i++){
   console.log(porgee);
   console.log(dart);
 
+//Yell at the Ninja Turtles
+var ninjaTurtles=["Donatello", "Leonardo", "Raphael","Michaelangelo"];
+for(let ninja of ninjaTurtles){
+  console.log(`${ninja.toLocaleUpperCase()}`);
+}
+
+
