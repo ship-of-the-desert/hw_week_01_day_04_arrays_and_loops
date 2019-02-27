@@ -4,10 +4,8 @@ for (i=0;i<=20;i++){
 }
  //......................
 // Get Even
-for (i=0;i<=200;i++){
-  if (i%2==0){
+for (i=0;i<=200;i+=2){
   console.log(i);
-    }
     }
     //......................
 
@@ -58,6 +56,8 @@ const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
                     ["Lucinda", "Jacc", "Neff", "Snoop"],
                     ["Petunia", ["Baked Goods", "Waldo"]]];
                     console.log(whereIsWaldo);
+                    console.log(whereIsWaldo[0][1]);
+                    console.log(whereIsWaldo[1]);
                     console.log(whereIsWaldo.indexOf("Eggbert"));
                     whereIsWaldo.splice(whereIsWaldo[1],1);
                     console.log(whereIsWaldo);
