@@ -96,3 +96,15 @@ for (var i = 0; i <= kittyTalk.length; i++) {
 
 
 
+//Find the Median
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+
+console.log('array length is '+ nums.length);
+//this array is odd , median is the middle number , first sort the array
+nums.sort();
+//do the math for median
+let lowMiddle = Math.floor((nums.length - 1) / 2);
+let highMiddle = Math.ceil((nums.length - 1) / 2);
+let median = (nums[lowMiddle] + nums[highMiddle]) / 2;
+
+console.log("median :" +median);
