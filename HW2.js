@@ -151,3 +151,44 @@ x++
 
 console.log(whereIsWaldo[2][1][1]);
 //////////////////////////////////////
+
+//Q7
+//Excited Kitten
+var meow = 0;
+while (meow < 20)
+{
+
+console.log("Love me, pet me! HSSSSSS!" );
+
+meow++
+
+}
+var kittenTalking = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."]
+
+while (meow <= 20)
+{
+
+    if (meow % 2 == 0)
+{
+
+    var randomNum  =(Math.random())*10;
+
+    if (randomNum => 0  && randomNum < kittenTalking.length )
+    {
+
+        console.log(kittenTalking[randomNum]);
+        meow++
+    }
+    else
+    {
+
+        console.log("hhh" );
+    }
+   
+
+   
+}
+
+break;
+
+}
