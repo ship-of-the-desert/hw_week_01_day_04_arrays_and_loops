@@ -69,3 +69,12 @@ console.log(sharky);
 console.log(plantee);
 console.log(porgee);
 console.log(dart);
+
+
+//*SECTION#5 YELL AT THE NINJA TURTLES
+//?commit messsage: "Yell at the Ninja Turtles answered"
+var turtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+for (var turtle of turtles)
+{
+    console.log(turtle.toUpperCase());
+}
