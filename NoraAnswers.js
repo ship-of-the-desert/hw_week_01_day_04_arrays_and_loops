@@ -49,6 +49,7 @@ const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
                     ["Petunia", ["Baked Goods", "Waldo"]]];
 whereIsWaldo.splice(1,1);
 whereIsWaldo[1][whereIsWaldo[1].indexOf("Neff")]="No One";
+
 //log the last element in the 3 dimintional array 
 console.log(
     whereIsWaldo[whereIsWaldo.length-1]
@@ -64,3 +65,8 @@ console.log(
         if(index%2==0)
         console.log(randomResponse[Math.floor(Math.random() * 2)]);
     }
+
+//Find the Median
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+nums.sort();
+console.log(nums[Math.floor(nums.length/2)]);
