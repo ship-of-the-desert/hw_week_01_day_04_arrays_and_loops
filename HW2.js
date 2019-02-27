@@ -61,3 +61,71 @@ console.log(i.toUpperCase());
 
 
 ///////////////////////////////////////////
+
+
+//Q5
+//
+
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle',
+'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian',
+'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther',
+'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+
+console.log(favMovies.indexOf("Titanic"));
+
+favMovies.sort();
+
+for (var x of favMovies)
+{
+console.log(x);
+x+=1;
+
+}
+console.log("\n");
+
+favMovies.pop();
+favMovies.push("Guardians of the Galaxy");
+favMovies.reverse();
+favMovies.shift();
+favMovies.unshift("Game of Thrones");
+for (var x of favMovies)
+{
+console.log(x);
+x+=1;
+
+}
+console.log("\n");
+//splice and add
+var indexOfDjango = favMovies.indexOf("Django Unchained");
+favMovies.splice(indexOfDjango,1);
+favMovies.push("Avatar");
+
+for (var x of favMovies)
+{
+console.log(x);
+x+=1;
+
+}
+console.log("\n");
+//slice array
+var halfIndex=(favMovies.length-1)/2;
+var slice_favMovies = favMovies.slice(halfIndex,favMovies.length );
+
+for (var x of slice_favMovies)
+{
+console.log(x);
+x+=1;
+
+}
+console.log("\n");
+
+//console the array
+
+for (var x of favMovies)
+{
+console.log(x);
+x+=1;
+
+}
+console.log("\n");
+/////////////////////////////////////////////
