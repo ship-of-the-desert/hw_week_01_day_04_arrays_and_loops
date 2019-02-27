@@ -192,3 +192,31 @@ while (meow <= 20)
 break;
 
 }
+
+/////////////////////////////////
+
+
+//q8
+//Find the Median
+
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+
+nums.sort();
+
+var lengthOfarray = nums.length;
+if (lengthOfarray %2 == 0 )
+{
+    console.log((nums[lengthOfarray / 2]  +  nums[lengthOfarray / 2 + 1]) /2  );
+}
+else
+
+{
+
+console.log( nums[Math.floor(lengthOfarray / 2)]);
+
+}
+
+
+
+
+
