@@ -55,24 +55,6 @@ Final note: You are not alone! Everyone else in the class is working on this as 
 "Get Even answered"
 <hr>
 
-
-## Fizz Buzz
-
-This is a classic problem that you should get really comfortable solving. If you've solved it before, try to make it more elegant and short. 
-
-1. Write a javascript application that logs all numbers from 1 - 100.
-
-2. If a number is divisible by 3 log "Fizz" instead of the number.
-
-3. If a number is divisible by 5 log "Buzz" instead of the number.
-
-4. If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number.
-
-<hr>
-&#x1F534; The commit message should read: <br>
-"Fizz Buzz answered"
-<hr>
-
 ## Wild Wild Life
 Use the following arrays to answer the questions below (name,species ,age, hometown):
 You should be modifying the elements by accessing them. It is up to you which methods to use. 
