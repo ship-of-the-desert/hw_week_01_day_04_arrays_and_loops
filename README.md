@@ -209,19 +209,11 @@ Expected output:
 "Find the Median answered"
 <hr>
 
-## Lab Time Revisited
-
-Choose one that you didn't get to solve in lab
-
-#### Fibonnacci (morning lab)
-#### Checkerboard (morning lab)
-#### TwoDArray (afternoon lab)
-
-
-
 # Hungry for More?
 
-## Finish all 3 Lab Questions
+## Finish all Lab Questions
+
+Choose one that you didn't get to solve in lab
 
 ## Return of the Closets
 
@@ -296,4 +288,4 @@ Continue looking at the closet arrays:
 
 
 # Reminder
-Remember to submit an issue to our class repository with your work by 10 am Eastern tomorrow morning! Need a reminder on how to submit? Check out the instructions on how to submit homework in our class Wiki (located on our class Github) if you need a reminder.
+Remember to submit an issue to our class repository with your work by 10 am tomorrow morning! Need a reminder on how to submit? Check out the instructions on how to submit homework in our class Wiki (located on our class Github) if you need a reminder.
