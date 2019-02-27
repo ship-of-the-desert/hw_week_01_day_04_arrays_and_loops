@@ -250,3 +250,10 @@ for (var i = 0; i < thomsCloset.length - 1; i++) {
         console.log(thomsCloset[i][j]);
     }
 }
+
+
+//* SECTION 13 
+//?commit message : "Hungry for More: I tackled..."
+// Morning Lab done.
+// Afternoon Lab done.
+// Exercise done. 
