@@ -7,7 +7,7 @@ for (i=0;i<=20;i++){
 for (i=0;i<=200;i+=2){
   console.log(i);
     }
-    //......................
+//......................
 
   // Wild Wild Life  
   const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
