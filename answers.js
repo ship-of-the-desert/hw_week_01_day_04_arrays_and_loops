@@ -43,7 +43,14 @@ favMovies.shift();
 favMovies.unshift('Avatar');
 favMovies.splice(favMovies.indexOf('Django Unchained'),favMovies.indexOf('Django Unchained')+1);
 var sliced = favMovies.slice(favMovies.length/2,favMovies.length);
-console.log(sliced)
-console.log(favMovies)
-console.log(sliced.indexOf("Fast and Furious"))
+console.log(sliced);
+console.log(favMovies);
+console.log(sliced.indexOf("Fast and Furious"));
 
+// Where is Waldo
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                    ["Lucinda", "Jacc", "Neff", "Snoop"],
+                    ["Petunia", ["Baked Goods", "Waldo"]]];
+whereIsWaldo.splice(1,1);
+whereIsWaldo[1][2]="No One";
+console.log(whereIsWaldo[2][1][1]);
