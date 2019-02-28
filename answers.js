@@ -63,3 +63,8 @@ for (i=1;i<21;i++) {
     }
     console.log("Love me, pet me! HSSSSSS!");
 }
+
+// Find the Median
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+nums.sort()
+console.log(nums[(nums.length/2)-0.5]);
