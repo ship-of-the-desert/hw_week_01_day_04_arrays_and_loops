@@ -69,7 +69,7 @@ whereIsWaldo[2][2]= "No One";
 console.log(whereIsWaldo[3][1][2]);
 
 // Excited Kitten
-for (var i = 0; i <= ;i++)
+for (var i = 0; i <= 4;i++)
  {
      console.log('Love me, pet me! HSSSSSS!');
      if (i % 2 == 0)
@@ -84,3 +84,11 @@ for (var i = 0; i <= ;i++)
  kittyTalk=['Love me, pet me! HSSSSSS!',' ...human...why you taking pictures of me?...','..the catnip made me do it...', '...why does the red dot always get away...'];
  var random = Math.floor(Math.random * kittyTalk.length);
 console.log(random [kittyTalk]);
+
+//Find the Median
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+nums.sort();
+var median = Math.floor(nums.length-1 / 2);
+var median1 = Math.ceil(nums.length-1 / 2);
+var result = num([median]+[median1])/2;
+console.log(result);
