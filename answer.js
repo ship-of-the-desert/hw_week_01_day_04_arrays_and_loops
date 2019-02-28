@@ -23,12 +23,27 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 plantee[2] = 5001;
 wolfy[3] = "Gotham City";
 
-wolfy.unshift["Wolfy"] ;
-wolfy[0] = "Gameboy";
+
+wolfy[wolfy.unshift] ;
+wolfy[wolfy.shift]="Gameboy" ;
+
 
 dart[4] = "Hawkins";
  console.log(plantee);
  console.log(wolfy);
  console.log(dart);
+
+
+
+ var iterable = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+for (let value of iterable) {
+  
+  console.log(value.toUpperCase());
+}
+ 
+
+
+
  
 
