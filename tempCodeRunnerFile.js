@@ -1,0 +1,1 @@
+favMovies.slice(favMovies.length/2)
