@@ -55,13 +55,11 @@ console.log(favMovies.indexOf("Fast and Furious"));
 const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
                     ["Lucinda", "Jacc", "Neff", "Snoop"],
                     ["Petunia", ["Baked Goods", "Waldo"]]];
-                    console.log(whereIsWaldo);
-                    console.log(whereIsWaldo[0][1]);
-                    console.log(whereIsWaldo[1]);
-                    console.log(whereIsWaldo.indexOf("Eggbert"));
-                    whereIsWaldo.splice(whereIsWaldo[1],1);
-                    console.log(whereIsWaldo);
-                   console.log(whereIsWaldo.indexOf("Waldo"));//[3][1][1]);
+                    //console.log(whereIsWaldo);
+                    whereIsWaldo.splice(whereIsWaldo.indexOf("Eggbert"),1);
+                    //console.log(whereIsWaldo);
+                    whereIsWaldo[1][2]="No One";
+                    console.log(whereIsWaldo[2][1][1]);
                   
 
 //Excited Kitten
