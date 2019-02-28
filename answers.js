@@ -54,3 +54,12 @@ const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
 whereIsWaldo.splice(1,1);
 whereIsWaldo[1][2]="No One";
 console.log(whereIsWaldo[2][1][1]);
+
+// Excited Kitten
+var catTalk=['...human...why you taking pictures of me?...','...the catnip made me do it...','...why does the red dot always get away...'];
+for (i=1;i<21;i++) {
+    if (i%2===0) {
+        console.log(catTalk[Math.floor(Math.random()*catTalk.length)]);
+    }
+    console.log("Love me, pet me! HSSSSSS!");
+}
