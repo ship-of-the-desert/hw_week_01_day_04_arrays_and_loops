@@ -20,7 +20,8 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 plantee[2]+=1
 wolfy[3]='Gotham City'
 dart[3]+=', Hawkins'
-wolfy[0]='Gameboy'
+wolfy.shift()
+wolfy.unshift('Gameboy')
 
 
 // Yell at Ninja Turtles
@@ -29,3 +30,20 @@ var ninjaTurtles=['Donatello, Leonardo, Raphael, Michaelangelo'];
 for (let n of ninjaTurtles) {
     console.log(n.toUpperCase())
 }
+
+// Methods, Revisited
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+
+favMovies.indexOf('Titanic');
+favMovies.sort();
+favMovies.pop();
+favMovies.push('Guardians of the Galaxy');
+favMovies.reverse();
+favMovies.shift();
+favMovies.unshift('Avatar');
+favMovies.splice(favMovies.indexOf('Django Unchained'),favMovies.indexOf('Django Unchained')+1);
+var sliced = favMovies.slice(favMovies.length/2,favMovies.length);
+console.log(sliced)
+console.log(favMovies)
+console.log(sliced.indexOf("Fast and Furious"))
+
